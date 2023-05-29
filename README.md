@@ -17,10 +17,10 @@ Os arquivos Javascript foram os arquivos nativos do Bootstrap, usado nos compone
 - <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/menu.html">menu.html</a> | Página do menu
 - <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/menu.css">menu.css</a> | Estilo da página de menu
 - <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/main.js">main.js</a> | Javascript próprio
-- <a href="">/imagens</a> | Pasta com as imagens do projeto
-- <a href="">/bootstrap</a> | Pasta com os arquivos do Bootstrap
-- <a href="">/bootstrap/css</a> | CSS do Bootstrap
-- <a href="">/bootstrap/js</a> | Javascript do Bootstrap
+- <a href="https://github.com/luisfelipens1/Vegan_Bistro/tree/main/imagens">/imagens</a> | Pasta com as imagens do projeto
+- <a href="https://github.com/luisfelipens1/Vegan_Bistro/tree/main/bootstrap">/bootstrap</a> | Pasta com os arquivos do Bootstrap
+- <a href="https://github.com/luisfelipens1/Vegan_Bistro/tree/main/bootstrap/css">/bootstrap/css</a> | CSS do Bootstrap
+- <a href="https://github.com/luisfelipens1/Vegan_Bistro/tree/main/bootstrap/js">/bootstrap/js</a> | Javascript do Bootstrap
 
 ## Objetivo do projeto
 O objetivo deste projeto foi trabalhar a utilização do framework Bootstrap para a construção de uma página completa, e aprimorar as habilidades de recriar um Layout usando o código.
