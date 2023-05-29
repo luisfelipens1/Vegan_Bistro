@@ -1,0 +1,249 @@
+@media(max-width: 1370px){
+	#features .feature{
+		height: 360px;
+	}
+}
+@media(max-width: 1200px){
+	.section-title{
+		font-size: var(--section-title-middle);
+	}
+	#quem-somos p,
+	#menu p{
+		font-size: 1rem;
+	}
+	#features .feature{
+		height: 375px;
+	}
+}
+
+@media(max-width: 992px){
+	section{
+		padding: var(--padding-middle);
+	}
+	.nav-link{
+		text-align: center;
+		border-bottom: 1.5px solid #eee;/*ddd*/
+	}
+	.navbar-collapse{
+		margin-top: 5px;
+	}
+	.social-media-icons{
+		margin-top: 10px;
+		justify-content: center;
+	}
+	.carousel-item p{
+		font-size: 1.4rem;
+	}
+	.carousel-control-next,
+	.carousel-control-prev{
+		font-size: 1.8rem;
+		width: 35px;
+		height: 65px;
+	}
+	.carousel-control-prev{
+		margin-left: 40px;
+	}
+	.carousel-control-next{
+		margin-right: 40px;
+	}
+	#quem-somos .row{
+		flex-direction: column-reverse;
+	}	
+	.divider{
+		margin-top: 0.25rem !important;
+		margin-bottom: 1.5rem !important;
+		height: 2px;
+	}
+	.text-quem-somos,
+	.text-menu{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#quem-somos p,
+	#menu p{
+		text-align: justify;
+	}
+	.quem-somos-img,
+	.menu-img{
+		margin-top: 20px;
+	}
+	.subtitle{
+		width: 70%;
+		font-size: 15px;
+	}
+	#features .feature{
+		height: 100%;
+	}
+	.feature-icon{
+		width: 75px; height: 75px;
+		font-size: 26px;
+	}
+	#delivery-slider{
+		height: 420px;
+	}
+	#delivery-slider .carousel-control-prev span i,
+	#delivery-slider .carousel-control-next span i{
+		color: #292929;
+	}
+	#delivery-slider .delivery{
+		height: 350px;
+	}
+	.delivery img{
+		width: 250px;
+	}
+	#reservas .container{
+		margin-bottom: 70px;
+	}
+}
+
+@media(max-width: 768px){
+	.section-title{
+		font-size: var(--section-title-small);
+	}
+	.carousel-item p{
+		font-size: 1.3rem;
+	}
+	.carousel-control-next,
+	.carousel-control-prev{
+		width: 30px;
+		height: 60px;
+		font-size: 1.6rem;
+	}
+	.carousel-control-prev{
+		margin-left: 30px;
+	}
+	.carousel-control-next{
+		margin-right: 30px;
+	}
+	.btn-brand{
+		padding: 0.4rem 2.1rem;
+		font-size: 0.950rem;
+	}
+	#quem-somos p,
+	#menu p{
+		font-size: 1rem;
+	}
+	.subtitle{
+		width: 75%;
+		font-size: 14px;
+	}
+	.feature h3{
+		font-size: 20px;
+	}
+	.feature-icon{
+		width: 70px; height: 70px;
+		font-size: 24px;
+	}
+	#delivery-slider{
+		height: 390px;
+	}
+	#delivery-slider .delivery{
+		height: 320px;
+	}
+	.delivery .subtitle{
+		width: 75%;
+	}
+	.delivery img{
+		width: 230px;
+	}
+	#reservas .form-header{
+		width: 75%;
+		font-size: 15px;
+	}
+}
+
+@media(max-width: 576px){
+	section{
+		padding: var(--padding-middle);
+	}
+	.section-title{
+		font-size: var(--section-title-smaller);
+	}
+	.navbar-toggler span i{
+		font-size: 1.5rem;
+	}
+	.carousel-item p{
+		font-size: 1.1rem;
+	}
+	.navbar-brand .logo{
+		width: 140px;
+	}
+	.carousel-control-next,
+	.carousel-control-prev{
+		width: 25px;
+		height: 55px;
+		font-size: 1.3rem;
+	}
+	.carousel-control-prev{
+		margin-left: 5px;
+	}
+	.carousel-control-next{
+		margin-right: 5px;
+	}
+	.btn-brand{
+		padding: 0.3rem 2rem;
+		font-size: 0.9rem;
+	}
+	#quem-somos p,
+	#menu p{
+		font-size: 14.5px;
+	}
+	.menu-link a{
+		font-size: 14.5px;
+	}
+	.subtitle{
+		width: 80%;
+	}
+	.feature h3{
+		font-size: 18px;
+	}
+	.feature-icon{
+		width: 65px; height: 65px;
+		font-size: 24px;
+	}
+	#delivery-slider{
+		height: 370px;
+	}
+	#delivery-slider .carousel-control-prev,
+	#delivery-slider .carousel-control-next{
+		top: 40%;
+	}
+	#delivery-slider .delivery{
+		height: 300px;
+	}
+	.delivery .subtitle{
+		width: 90%;
+	}
+	.delivery img{
+		width: 180px;
+	}
+	.delivery .btn{
+		transform: scale(0.95);
+	}
+	#reservas .form-header{
+		width: 90%;
+		font-size: 14.5px;
+	}
+	#reservas .form-control::placeholder,
+	#reservas .form-control{
+		font-size: 14px;
+	}
+	#reservas button{
+		font-size: 16px;
+	}
+	.logo-footer{
+		width: 160px;
+	}
+	.social-links .social-icon{
+		font-size: 1.4rem;
+	}
+	footer p,
+	footer address,
+	footer .invitation{
+		font-size: 14.5px;
+	}
+	.author a{
+		font-size: 14.5px;
+	}
+}

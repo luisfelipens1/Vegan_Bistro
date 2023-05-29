@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+*{
+	font-family: Oxygen, Arial, Helvetica, sans-serif;
+}
+:root{
+	--azul-primario: #2C3759;
+	--laranja-primario: #F77D44;
+
+	--padding-extra-big: 120px 0;
+	--padding-big: 100px 0;
+	--padding-middle: 85px 0;
+
+	--section-title-big: 2.2rem;
+	--section-title-middle: 1.8rem;
+	--section-title-small: 1.6rem;
+	--section-title-smaller: 1.5rem;
+}
+
+/*---------- Estilos gerais ----------*/
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 700;
+}
+a{
+	text-decoration: none;
+	transition: all 0.4s;
+}
+section{
+	padding: var(--padding-big);
+}
+.section-title{
+	font-family: 'Rufina', Georgia, 'Timer New Roman', serif;
+	color: var(--azul-primario);
+	font-size: var(--section-title-big);
+}
+.divider{
+	width: 120px;
+	height: 2.5px;
+	display: block;
+	background-color: var(--azul-primario);
+	border-radius: 5px;
+}
+.divider-white{
+	width: 160px;
+	height: 2.5px;
+	display: block;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.bg-cover{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.carousel-control-prev,
+.carousel-control-next{
+	font-size: 2rem;
+	width: 40px;
+	height: 70px;
+}
+.about-img,
+.menu-picture{
+	width: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+/*---------- Navbar ----------*/
+.navbar-brand .logo{
+	width: 160px;
+	height: auto;
+	object-fit: cover;
+}
+.nav-link{
+	transition: all .3s;
+}
+.nav-link:hover{
+	color: var(--laranja-primario) !important;
+}
+.social-media-icons .icons-navbar{
+	font-size: 1.2rem;
+}
+.icons-navbar a, .nav-link{
+	color: var(--azul-primario) !important;
+}
+.icons-navbar a:hover{
+	color: var(--laranja-primario) !important;
+}
+.active{
+	color: var(--laranja-primario) !important;
+}
+.navbar-toggler{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	transition: .5s ease-in-out;
+}
+/*Animação do menu no responsivo*/
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+	border: none;
+	box-shadow: none;
+	outline: none;
+}
+.navbar-toggler span{
+	margin: 0;
+	padding: 0;
+}
+.toggler-icon{
+	display: block;
+	position: absolute;
+	height: 3px;
+	width: 100%;
+	background-color: var(--laranja-primario);
+	border-radius: 2px !important;
+	opacity: 1;
+	left: 0;
+	transform: rotate(0deg);
+	transition: 0.25s ease-in-out;
+}
+.middle-bar{
+	margin-top: 0px;
+}
+
+.navbar-toggler .top-bar{
+	margin-top: 0px;
+	transform: rotate(135deg);
+}
+.navbar-toggler .middle-bar{
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar{
+	margin-top: 0px;
+	transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .top-bar{
+	margin-top: -20px;
+	transform: rotate(0deg);
+}
+.navbar-toggler.collapsed .middle-bar{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .bottom-bar{
+	margin-top: 20px;
+	transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .toggler-icon{
+	background-color: var(--azul-primario);
+}
+
+/*---------- Slideshow ----------*/
+section#slideshow{
+	padding: 0;
+	margin-top: 76px;
+}
+.carousel-inner, .carousel-item{
+	height: calc(100vh - 76px);
+}
+.slide-1{
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url("imagens/slide-1.jpg");	
+}
+.slide-2{
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url("imagens/slide-2.jpg");	
+}
+.slide-3{
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url("imagens/slide-3.jpg");	
+}
+.btn-brand{
+	border: 2px solid #fff;
+	padding: 0.5rem 2.2rem;
+	color: #fff;
+	margin-top: 1rem;
+	font-weight: 400;
+}
+.btn-brand:hover{
+	background-color: #fff;
+	color: var(--azul-primario);
+}
+.carousel-item p{
+	font-size: 1.6rem;
+}
+.carousel-control-prev{
+	margin-left: 50px;
+}
+.carousel-control-next{
+	margin-right: 50px;
+}
+
+
+/*---------- Quem Somos ----------*/
+#quem-somos p{
+	color: var(--azul-primario);
+	font-weight: 400;
+	font-size: 17px;
+}
+
+/*---------- Menu ----------*/
+.menu-link{
+	color: var(--azul-primario) !important;
+}
+.menu-link a{
+	border: 2px solid var(--azul-primario);
+}
+.menu-link a:hover{
+	background-color: var(--azul-primario);
+	border: 2px solid var(--azul-primario);
+	color: #fff !important;
+}
+#menu p{
+	font-size: 17px;
+}
+
+/*---------- Features ----------*/
+#features{
+	background-image: linear-gradient(rgba(0,0,0,0.750), rgba(0,0,0,0.8)), url("imagens/features.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+#features h2{
+	font-family: 'Rufina', Georgia, 'Times New Roman', serif;
+}
+.feature{
+	border: 1px solid #fff;
+	border-radius: 10px;
+}
+.feature h3{
+	font-size: 22px;
+}
+.feature p{
+	font-size: 0.9rem;
+}
+.subtitle{
+	width: 60%;
+	text-align: center;
+}
+.feature-icon{
+	width: 80px; height: 80px;
+	background-color: var(--laranja-primario);
+	color: #fff;
+	font-size: 28px;
+	display: inline-grid;
+	align-content: center;
+	text-align: center;
+	border-radius: 10px;
+}
+
+
+/*---------- Nosso time -----------*/
+.team-member{
+	border-radius: 8px;
+	box-shadow: 2px 3px 6px rgba(0,0,0,0.1);
+	transition: box-shadow .3s ease-in-out;
+}
+.team-member:hover{
+	box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.2);
+}
+.team-member img{
+	max-width: 180px;
+	height: 180px;
+	object-fit: cover;
+	box-shadow: -10px -10px 0 var(--laranja-primario);
+	border-radius: 50%;
+}
+
+/*---------- Delivery ----------*/
+#delivery{
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url("imagens/delivery.jpg");
+}
+#delivery-slider{
+	height: 470px;
+	position: relative;
+}
+#delivery-slider .carousel-control-prev,
+#delivery-slider .carousel-control-next{
+	position: absolute;
+	top: 42%;
+	transform: translate(0, -50%);
+}
+#delivery-slider .delivery{
+	border-radius: 10px;
+	height: 400px;
+}
+.delivery .subtitle{
+	width: 60%;
+}
+.delivery img{
+	height: auto;
+	object-fit: cover;
+}
+.btn-ifood,
+.btn-uber-eats,
+.btn-rappi{
+	transition: background-color .3s ease-in-out;
+}
+.btn-ifood{
+	background-color: #F21628;
+	color: #fff;
+}
+.btn-ifood:hover{
+	color: #fff !important;
+	background-color: #fc5449;
+}
+.btn-uber-eats{
+	background-color: #65BF0B;
+	color: #fff;
+}
+.btn-uber-eats:hover{
+	color: #fff !important;
+	background-color: #84ca46;
+}
+.btn-rappi{
+	background-color: #F25D50;
+	color: #fff;
+}
+.btn-rappi:hover{
+	color: #fff !important;
+	background-color: #f97b6b;
+}
+
+/*---------- Reservas ----------*/
+#reservas .container{
+	margin-bottom: 50px;
+}
+#reservas .form-header{
+	width: 60%;
+}
+#reservas .form-control:focus{
+	box-shadow: none;
+	border-color: var(--azul-primario);
+}
+#reservas input.form-control{
+	height: 50px;
+}
+#reservas input[type="date"],
+#reservas .form-control::placeholder,
+#reservas .form-control{
+	color: #707070;
+}
+#reservas .form-control:focus{
+	border: 1.5px solid var(--azul-primario);
+}
+#reservas button{
+	border: 1.5px solid var(--azul-primario);
+	color: var(--azul-primario);
+	width: 100%;
+}
+#reservas button:hover{
+	background-color: var(--azul-primario);
+	color: #fff;
+}
+
+/*---------- Rodapé ----------*/
+footer{
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url("imagens/slide-1.jpg");
+	background-attachment: fixed;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+.author{
+	color: rgba(255,255,255,0.8);
+}
+.author a{
+	font-size: 1rem;
+	color: var(--laranja-primario) !important;
+}
+.author a:hover{
+	color: rgba(255,255,255,0.8) !important;
+}
+.social-links .social-icon{
+	color: rgba(255,255,255,0.7);
+}
+.social-links .social-icon:hover{
+	color: #fff;
+}
+footer p,
+footer address,
+footer .invitation{
+	color: rgba(255,255,255,0.9);
+}
+.footer-top{
+	margin-bottom: 30px;
+}
+footer a{
+	font-size: 24px;
+	margin-right: 10px;
+}
+footer img{
+	max-width: 175px;
+}
+.footer-bottom{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 1px solid rgba(255,255,255,0.4);
+}

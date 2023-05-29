@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vegan Bistrô</title>
+	<!--Favicons-->
+	<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+	<!--Metatags-->
+	<meta name="description" content="Conquistando paladares desde 2016, sempre trazendo e acentuando cada vez mais o sabor da culinária vegana.">
+	<meta name="robots" content="index,follow">
+	<meta name="author" content="Luis Felipe Nascimento Santana">
+	<!--Estilos CSS-->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<script src="https://kit.fontawesome.com/c0dd23e92a.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+</head>
+<body>
+
+	<header>
+		<!---------- Navbar ---------->
+		<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow fixed-top" id="navbar">
+	  		<div class="container align-items-center">
+	    		<a class="navbar-brand" href="#">
+	    			<img src="imagens/logo-site.png" class="logo" alt="Vegan Bistrô">
+	    		</a>
+	    		<button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      			<span class="toggler-icon top-bar"></span>
+	      			<span class="toggler-icon middle-bar"></span>
+	      			<span class="toggler-icon bottom-bar"></span>
+	    		</button>
+	    		<div class="collapse navbar-collapse" id="navbarNav">
+			      <ul class="navbar-nav mx-auto">
+			        <li class="nav-item">
+			          <a class="nav-link active link-primary" aria-current="page" href="#">Início</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#quem-somos">Quem Somos</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#menu">Menu</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#features">Qualidades</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#team">Equipe</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#delivery">Delivery</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#reservas">Reservas</a>
+			        </li>
+			      </ul>
+			      <div class="social-media-icons d-flex align-items-center">
+			      	<nav class="icons-navbar">
+			      		<a href="https://pt-br.facebook.com/" target="_blank" class="p-2"><i class="fa-brands fa-facebook-f"></i></a>
+			      		<a href="https://twitter.com/i/flow/login" target="_blank" class="p-2"><i class="fa-brands fa-twitter"></i></a>
+			      		<a href="https://www.instagram.com/" target="_blank" class="p-2"><i class="fa-brands fa-instagram"></i></a>
+			      	</nav>
+			      </div>
+	    		</div>
+	  		</div>
+		</nav>
+		<!---------- Fim da Navbar ---------->
+
+		<!---------- Slideshow ---------->
+		<section id="slideshow" data-bs-spy="scroll" data-bs-target="#navbar">
+			<div id="main-slider" class="carousel slide" data-bs-ride="carousel">
+  				<div class="carousel-inner">
+
+    				<div class="carousel-item text-center bg-dark active slide-1 bg-cover">
+      					<div class="container h-100 d-flex align-items-center justify-content-center">
+      						<div class="row justify-content-center">
+      							<div class="col-lg-12 text-slider">
+      								<p class="text-white m-0">Bem vindo ao</p>
+      								<h2 class="display-1 fw-bold text-white">Vegan Bistrô</h2>
+      								<a href="#quem-somos" class="btn btn-brand">SAIBA MAIS</a>
+      							</div>
+      						</div>
+      					</div>
+    				</div>
+
+    				<div class="carousel-item text-center bg-dark slide-2 bg-cover">
+      					<div class="container h-100 d-flex align-items-center justify-content-center">
+      						<div class="row justify-content-center">
+      							<div class="col-lg-12">
+      								<p class="text-white m-0">Aprecie o melhor da</p>
+      								<h2 class="display-1 fw-bold text-white">Culinária vegana</h2>
+      								<a href="#menu" class="btn btn-brand">MENU</a>
+      							</div>
+      						</div>
+      					</div>
+    				</div>
+
+			    	<div class="carousel-item text-center bg-dark slide-3 bg-cover">
+			      		<div class="container h-100 d-flex align-items-center justify-content-center">
+      						<div class="row justify-content-center">
+      							<div class="col-lg-12">
+      								<p class="text-white m-0">Não perca tempo</p>
+      								<h2 class="display-1 fw-bold text-white">Reserve sua mesa</h2>
+      								<a href="#reservas" class="btn btn-brand">RESERVE AGORA</a>
+      							</div>
+      						</div>
+      					</div>
+			    	</div>
+
+  				</div>
+
+				<button class="carousel-control-prev my-auto" type="button" data-bs-target="#main-slider" data-bs-slide="prev">
+			  		<span aria-hidden="true"><i class="fa-solid fa-chevron-left"></i></span>
+			  		<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next my-auto" type="button" data-bs-target="#main-slider" data-bs-slide="next">
+			  		<span aria-hidden="true"><i class="fa-solid fa-chevron-right"></i></span>
+			  		<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+		<!---------- Fim do Slideshow ---------->
+	</header>
+
+	<main>
+
+		<!---------- Quem Somos ---------->
+		<section id="quem-somos">
+			<div class="container">
+				<div class="row align-items-center justify-content-center">
+					<div class="col-lg-5 quem-somos-img">
+						<img src="imagens/quem-somos-img.jpg" class="about-img shadow" alt="A beleza dos nossos pratos representa e mostra nossa identidade, quem realmente somos.">
+					</div>
+					<div class="col-lg-5 gy-4 mx-lg-2 text-quem-somos">
+						<h2 class="section-title">Quem Somos</h2>
+						<div class="divider my-3"></div>
+						<p>Fundado a 7 anos, o Vegan Bistrô foi criado para atender ao público vegano, trazendo novidades, novos sabores, novas sensações, e além de tudo, novos ambientes, sempre pensados e planejados para você aproveitar o melhor que a culinária tem a oferecer, tudo de forma 100% natural e com preço acessível para todos.</p>
+						
+						<p>O Vegan Bistrô, convida você a desacelerar o ritmo do dia-a-dia e saborear um pouco da gastronomia vegana.
+						Com ambiente amplo e aconchegante o Restaurante recebe você para experiência gastronômica que reverencia o bem estar e a sustentabilidade. Opções criativas e saudáveis elaboradas pelo chef e sua equipe. O cardápio destaca a culinária vegana, comprometida com o meio ambiente e sua qualidade de vida sem perder o sabor.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!---------- Fim Quem Somos ---------->
+
+		<!---------- Menu ---------->
+		<section id="menu">
+			<div class="container">
+				<div class="row align-items-center justify-content-center">
+					<div class="col-lg-5 gy-4 mx-lg-2 text-menu">
+						<h2 class="section-title">Menu</h2>
+						<div class="divider my-3"></div>
+						<p>Aqui, toda a equipe comandada pelo chef Daniel Fonseca segue métricas rigorosas, em cada etapa, em cada prato, conseguindo uma rara comunhão de frescor e escala. Cada prato com suas peculiaridades e sofisticação de sabores, sempre feitos com ingredientes frescos, e 100% orgânicos, confiamos em nossos fornecedores, e passamos essa confiança para você cliente, tenha uma experiência incrível e experimente nossos pratos salgados, nossos doces e nossas saladas.</p>
+	
+						<div class="menu-link">
+							<a href="menu.html" class="menu-link btn btn-outline-primary">VISUALIZAR MENU</a>
+						</div>
+					</div>
+
+					<div class="col-lg-5 menu-img">
+						<img src="imagens/menu-img.jpg" class="menu-picture shadow" alt="Pratos diversos do nosso menu">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!---------- Fim do Menu ---------->
+
+		<!---------- Features ---------->
+		<section id="features">
+			<div class="container">
+				<div class="row text-center mb-4">
+					<div class="col-12 d-flex flex-column align-items-center">
+						<h2 class="text-white section-title">Por que nos escolher?</h2>
+						<div class="divider-white mt-2 mb-3"></div>
+						<p class="text-white mt-2 subtitle">Te daremos agora 4 motivos de porque escolher o Vegan Bistrô como seu restaurante de confiança e garantia.</p>
+					</div>
+				</div>
+				<div class="row gy-4">
+					<article class="col-lg-3 col-sm-6">
+						<div class="feature p-4 text-center">
+							<div class="feature-icon">
+								<i class="fa-solid fa-wifi"></i>
+							</div>
+							<h3 class="text-white mt-4 mb-2">Wifi grátis</h3>
+							<p class="text-white">
+								Rede de Wifi 100% livre para nossos clientes, use a vontade e desfrute da internet, não é necessário realizar logins, a senha está na parte de trás dos cardápios.
+							</p>
+						</div>
+					</article>
+
+					<article class="col-lg-3 col-sm-6">
+						<div class="feature p-4 text-center">
+							<div class="feature-icon">
+								<i class="fa-solid fa-truck-fast"></i>
+							</div>
+							<h3 class="text-white mt-4 mb-2">Entrega rápida</h3>
+							<p class="text-white">
+								Uma entrega rápida é essencial para que sua comida chegue sempre com a melhor qualidade na sua casa, não passe problemas com a demora da sua comida.
+							</p>
+						</div>
+					</article>
+
+					<article class="col-lg-3 col-sm-6">
+						<div class="feature p-4 text-center">
+							<div class="feature-icon">
+								<i class="fa-solid fa-face-smile"></i>
+							</div>
+							<h3 class="text-white mt-4 mb-2">Funcionários atenciosos</h3>
+							<p class="text-white">
+								Funcionários prontificados e qualificados para atender suas necessidades, confiamos na nossa equipe para garantir que você receba o melhor atendimento.
+							</p>
+						</div>
+					</article>
+
+					<article class="col-lg-3 col-sm-6">
+						<div class="feature p-4 text-center">
+							<div class="feature-icon">
+								<i class="fa-solid fa-thumbs-up"></i>
+							</div>
+							<h3 class="text-white mt-4 mb-2">Ambiente agradável</h3>
+							<p class="text-white">
+								Ambiente agradável para que você se sinta confortavel e a vontade, garantindo assim uma experiência incrível tanto no sabor quanto no ambiente.
+							</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<!---------- Fim do Features ---------->
+
+		<!---------- Time ---------->
+		<section id="team">
+			<div class="container mb-3">
+				<div class="row mb-lg-5">
+					<div class="col-12 d-flex flex-column align-items-center">
+						<h2 class="section-title">Nosso Time</h2>
+						<div class="divider mt-2"></div>
+					</div>
+				</div>
+				<div class="row gy-4">
+					<article class="col-lg-3 col-sm-6">
+						<div class="team-member px-4 py-5 border shadow-on-hover text-center">
+							<img src="imagens/main-chef.png" alt="Chefe Daniel Fonseca">
+							<div class="team-member-content">
+								<h4 class="mt-4 mb-0">Daniel Fonseca</h4>
+								<p class="mb-0 mt-1">Chef</p>
+							</div>
+						</div>
+					</article>
+
+					<article class="col-lg-3 col-sm-6">
+						<div class="team-member px-4 py-5 border shadow-on-hover text-center">
+							<img src="imagens/auxiliar-main-chef.png" alt="Auxiliar de cozinha Priscila Borba">
+							<div class="team-member-content">
+								<h4 class="mt-4 mb-0">Priscila Borba</h4>
+								<p class="mb-0 mt-1">Auxiliar</p>
+							</div>
+						</div>
+					</article>
+
+					<article class="col-lg-3 col-sm-6">
+						<div class="team-member px-4 py-5 border shadow-on-hover text-center">
+							<img src="imagens/dessert-chef.png" alt="Chefe de sobremesas Jéssica Pinheiro">
+							<div class="team-member-content">
+								<h4 class="mt-4 mb-0">Jéssica Pinheiro</h4>
+								<p class="mb-0 mt-1">Chef de sobremesas</p>
+							</div>
+						</div>
+					</article>
+
+					<article class="col-lg-3 col-sm-6">
+						<div class="team-member px-4 py-5 border shadow-on-hover text-center">
+							<img src="imagens/auxiliar-dessert-chef.png" alt="Auxiliar de sobremesas Renan Ferreira">
+							<div class="team-member-content">
+								<h4 class="mt-4 mb-0">Renan Ferreira</h4>
+								<p class="mb-0 mt-1">Auxiliar</p>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<!---------- Fim da seção time ---------->
+
+		<!---------- Delivery ---------->
+		<section id="delivery" class="bg-cover">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 d-flex flex-column align-items-center">
+						<h2 class="text-white section-title">Que tal um Delivery?</h2>
+						<div class="divider-white mt-2 mb-3"></div>
+						<p class="text-white mt-2 subtitle">Não pode comparecer? Isso não te impede de experimentar as nossas delícias, o Vegan Bistrô está cadastrado nas principais plataformas de delivery, peça agora e receba no conforto do seu lar.</p>
+					</div>
+				</div>
+
+				<div id="delivery-slider" class="carousel slide mt-4" data-bs-ride="carousel">
+
+  					<div class="carousel-indicators">
+    					<button type="button" data-bs-target="#delivery-slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+   	 					<button type="button" data-bs-target="#delivery-slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    					<button type="button" data-bs-target="#delivery-slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  					</div>
+
+  					<div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <div class="row justify-content-center">
+					      	<div class="col-lg-8">
+					      		<div class="delivery bg-white d-flex flex-column justify-content-center align-items-center">
+					      			<img src="imagens/ifood.png" alt="Ifood">
+					      			<div class="btn-box mt-5">
+					      				<a class="btn btn-ifood" href="https://www.ifood.com.br/restaurantes" target="_blank">PEDIR PELO IFOOD</a>
+					      			</div>
+					      		</div>
+					      	</div>
+					      </div>
+					    </div>
+					    <div class="carousel-item">
+					      <div class="row justify-content-center">
+					      	<div class="col-lg-8">
+					      		<div class="delivery bg-white d-flex flex-column justify-content-center align-items-center">
+					      			<img src="imagens/uber-eats.png" alt="Uber Eats">
+					      			<div class="btn-box mt-5">
+					      				<a class="btn btn-uber-eats" href="https://www.ubereats.com/br" target="_blank">PEDIR PELO UBER EATS</a>
+					      			</div>
+					      		</div>
+					      	</div>
+					      </div>
+					    </div>
+					    <div class="carousel-item">
+					      <div class="row justify-content-center">
+					      	<div class="col-lg-8">
+					      		<div class="delivery bg-white d-flex flex-column justify-content-center align-items-center">
+					      			<img src="imagens/rappi.png" alt="Rappi">
+					      			<div class="btn-box mt-5">
+					      				<a class="btn btn-rappi" href="https://www.rappi.com.br/" target="_blank">PEDIR PELO RAPPI</a>
+					      			</div>
+					      		</div>
+					      	</div>
+					      </div>
+					    </div>
+  					</div>
+
+  					<button class="carousel-control-prev" type="button" data-bs-target="#delivery-slider" data-bs-slide="prev">
+					  <span aria-hidden="true"><i class="fa-solid fa-chevron-left"></i></span>
+					  <span class="visually-hidden">Previous</span>
+  					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#delivery-slider" data-bs-slide="next">
+					  <span aria-hidden="true"><i class="fa-solid fa-chevron-right"></i></span>
+					  <span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</section>
+		<!---------- Fim da seção delivery ---------->
+
+		<!---------- Reservas ---------->
+		<section id="reservas">
+			<div class="container d-flex justify-content-center flex-column align-items-center">
+				<div class="row">
+					<div class="col-12 d-flex flex-column align-items-center mb-4">
+						<h2 class="text-center section-title">Faça sua reserva</h2>
+						<div class="divider mt-2 mb-3"></div>
+						<p class="mt-1 text-center form-header">Nunca foi tão fácil fazer uma reserva, não perca tempo! Reserve sua mesa agora mesmo sem sair de casa diretamente do seu dispositivo, basta preencher o formulário abaixo</p>
+					</div>
+				</div>
+				<form action="#" class="row justify-content-center" method="post">
+					<div class="col-lg-8">
+						<div class="row g-3">
+							<div class="form-group col-md-6">
+								<input type="text" class="form-control" name="nome" placeholder="Nome completo" autocomplete="off" minlength="3" maxlength="150">
+							</div>
+							<div class="form-group col-md-6">
+								<input type="tel" class="form-control" name="telefone" placeholder="Número de telefone" autocomplete="off" id="telefone" max="11">
+							</div>
+							<div class="form-group col-md-6">
+								<input type="text" class="form-control" name="data-reserva" id="data-reserva" min="2023-05-01" max="2023-06-01" placeholder="Informe a data" onfocus="(this.type='date')">
+							</div>
+							<div class="form-group col-md-6">
+								<input type="number" class="form-control" name="numero-pessoas" id="numero-pessoas" placeholder="N° de pessoas" min="1" max="15">
+							</div>
+							<div class="form-group col-md-12">
+								<textarea placeholder="Observações..." cols="30" rows="4" class="form-control observacoes"></textarea>
+							</div>
+							<div class="form-group text-center col-md-12">
+								<button class="btn btn-outline-primary btn-lg">RESERVAR MESA</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+		<!---------- Fim da seção reservas ---------->
+
+	</main>
+
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<div class="row gy-5">
+					<div class="col-lg-4">
+						<img src="imagens/logo-branca-site.png" class="logo-footer" alt="Vegan Bistrô">
+						<p class="text-white mt-2 invitation">Venha saborear e aproveitar o melhor da culinária vegana, pratos feitos e pensados para você, não perca a chance de experimentar!</p>
+						<div class="social-links">
+							<a href="https://pt-br.facebook.com/" class="social-icon" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+
+							<a href="https://twitter.com/i/flow/login" class="social-icon" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+
+							<a href="https://www.instagram.com/" class="social-icon" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+							<a href="#" class="social-icon" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-3 ms-auto">
+						<h5 class="text-white mb-4">CONTATO</h5>
+						<p class="mb-3 contact">Telefone: (00) 12345-6789</p>
+						<p class="mb-3 contact">Email: veganbistro@gmail.com</p>
+						<p class="mb-0 contact"><address>Endereço: Rua Francisco Weimar Bezerra, Bairro Filadélfia, 123</address></p>
+					</div>
+					<div class="col-lg-3">
+						<h5 class="text-white mb-4">HORÁRIOS</h5>
+						<p class="mb-3 schedules">Segunda: Fechado</p>
+						<p class="mb-3 schedules">Terça a Sexta: 10:00 - 22:00</p>
+						<p class="mb-0 schedules">Sábado e Domingo: 08:00 - 00:00</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row gy-3 justify-content-between">
+					<div class="col-auto">
+						<p class="mb-0 copyright">&copy; Todos os direitos reservados</p>
+					</div>
+					<div class="col-auto">
+						<p class="mb-0 author">Feito por <a href="https://github.com/luisfelipens1" target="_blank">Luis Felipe</a>.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!---------- Estilos de Javascript ---------->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
