@@ -1,4 +1,4 @@
-# Vegan Bistrô
+# 🌐 Vegan Bistrô
 ## Resumo
 Este é um projeto da empresa fictícia Vegan Bistrô, construí esse projeto para testar meus conhecimentos e aprimorar minhas habilidades em desenvolvimento Front-End, e na utilização de frameworks CSS. <br>
 Tudo que foi utilizado nesse projeto não se trata de uma marca real, é apenas um projeto fictício para estudo. <br>
@@ -32,10 +32,10 @@ __Biblioteca de ícones:__ Font Awesome <br>
 __Bancos de imagens:__ Unsplash e Pexels
 
 ## Conclusão
-Tive dificuldades na construção? <br>
+_Tive dificuldades na construção?_ <br><br>
 Sim. Por não ter muita familiaridade com o Bootstrap, acabei tendo dificuldade em alterar estilos padrões que já vem nos arquivos nativos dele, porém com pesquisas e uma leitura na própria documentação do Bootstrap consegui superar essa dificuldade.
 
-O que aprendi com este projeto? <br>
+_O que aprendi com este projeto?_ <br>
 -	Construção de Layout
 -	Utilizar o Bootstrap 5
 -	Tratar e preparar imagens para utilizar em um site
