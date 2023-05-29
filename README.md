@@ -6,20 +6,21 @@ Os links de redes sociais não levam para a rede social de uma empresa, e sim pa
 Os links das empresas de delivery não levam para o delivery de uma empresa, e sim para a página inicial da empresa.
 
 ## Sobre o projeto
-O projeto foi construído usando como base um Briefing de uma empresa fictícia. Foi utilizado na construção o Bootstrap 5 como base, alguns códigos CSS são de uma folha de estilo própria para estilização mais detalhada da página a <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/estilo.css">estilo.css</a>, o projeto contém uma página index.html com o conteúdo principal, e uma página menu.html, contendo informações sobre o cardápio, e a página menu.css para estilização. <br>
-A responsividade ficou em boa parte por conta do próprio Bootstrap, porém algumas alterações foram feitas, estas se encontram na folha de estilo responsive.css, e a responsividade da página de menu ficou dentro da própria folha de estilo do menu menu.css <br>
+O projeto foi construído usando como base um Briefing de uma empresa fictícia. Foi utilizado na construção o Bootstrap 5 como base, alguns códigos CSS são de uma folha de estilo própria para estilização mais detalhada da página a <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/estilo.css">estilo.css</a>, o projeto contém uma página <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/index.html">index.html</a> com o conteúdo principal, e uma página <a hred="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/menu.html">menu.html</a>, contendo informações sobre o cardápio, e a página <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/menu.css">menu.css</a> para estilização. <br>
+A responsividade ficou em boa parte por conta do próprio Bootstrap, porém algumas alterações foram feitas, estas se encontram na folha de estilo <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/responsive.css">responsive.css</a>, e a responsividade da página de menu ficou dentro da própria folha de estilo do menu <br>
 Os arquivos Javascript foram os arquivos nativos do Bootstrap, usado nos componentes, e um pequeno arquivo Javascript próprio usado para criar o efeito de link ativo, que acompanha o scroll da página.
 
 ## Arquivos do projeto
-- index.html | Página principal
+- <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/index.html">index.html</a> | Página principal
 - <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/estilo.css">estilo.css</a> | Estilo da página principal
-- menu.html | Página do menu
-- menu.css | Estilo da página de menu
-- main.js | Javascript próprio
-- /imagens | Pasta com as imagens do projeto
-- /bootstrap | Pasta com os arquivos do Bootstrap
-- /bootstrap/css | CSS do Bootstrap
-- /bootstrap/js | Javascript do Bootstrap
+- <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/responsive.css">responsive.css</a> | Alterações na parte responsiva 
+- <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/menu.html">menu.html</a> | Página do menu
+- <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/menu.css">menu.css</a> | Estilo da página de menu
+- <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/main.js">main.js</a> | Javascript próprio
+- <a href="">/imagens</a> | Pasta com as imagens do projeto
+- <a href="">/bootstrap</a> | Pasta com os arquivos do Bootstrap
+- <a href="">/bootstrap/css</a> | CSS do Bootstrap
+- <a href="">/bootstrap/js</a> | Javascript do Bootstrap
 
 ## Objetivo do projeto
 O objetivo deste projeto foi trabalhar a utilização do framework Bootstrap para a construção de uma página completa, e aprimorar as habilidades de recriar um Layout usando o código.
