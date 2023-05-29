@@ -6,13 +6,13 @@ Os links de redes sociais não levam para a rede social de uma empresa, e sim pa
 Os links das empresas de delivery não levam para o delivery de uma empresa, e sim para a página inicial da empresa.
 
 ## Sobre o projeto
-O projeto foi construído usando como base um Briefing de uma empresa fictícia. Foi utilizado na construção o Bootstrap 5 como base, alguns códigos CSS são de uma folha de estilo própria para estilização mais detalhada da página a style.css, o projeto contém uma página index.html com o conteúdo principal, e uma página menu.html, contendo informações sobre o cardápio, e a página menu.css para estilização. <br>
+O projeto foi construído usando como base um Briefing de uma empresa fictícia. Foi utilizado na construção o Bootstrap 5 como base, alguns códigos CSS são de uma folha de estilo própria para estilização mais detalhada da página a <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/estilo.css">estilo.css</a>, o projeto contém uma página index.html com o conteúdo principal, e uma página menu.html, contendo informações sobre o cardápio, e a página menu.css para estilização. <br>
 A responsividade ficou em boa parte por conta do próprio Bootstrap, porém algumas alterações foram feitas, estas se encontram na folha de estilo responsive.css, e a responsividade da página de menu ficou dentro da própria folha de estilo do menu menu.css <br>
 Os arquivos Javascript foram os arquivos nativos do Bootstrap, usado nos componentes, e um pequeno arquivo Javascript próprio usado para criar o efeito de link ativo, que acompanha o scroll da página.
 
 ## Arquivos do projeto
 - index.html | Página principal
-- style.css | Estilo da página principal
+- <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/estilo.css">estilo.css</a> | Estilo da página principal
 - menu.html | Página do menu
 - menu.css | Estilo da página de menu
 - main.js | Javascript próprio
