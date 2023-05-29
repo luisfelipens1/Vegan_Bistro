@@ -7,7 +7,7 @@ Os links das empresas de delivery não levam para o delivery de uma empresa, e s
 
 ## Sobre o projeto
 O projeto foi construído usando como base um Briefing de uma empresa fictícia. Foi utilizado na construção o Bootstrap 5 como base, alguns códigos CSS são de uma folha de estilo própria para estilização mais detalhada da página a <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/estilo.css">estilo.css</a>, o projeto contém uma página <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/index.html">index.html</a> com o conteúdo principal, e uma página <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/menu.html">menu.html</a>, contendo informações sobre o cardápio, e a página <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/menu.css">menu.css</a> para estilização. <br>
-A responsividade ficou em boa parte por conta do próprio Bootstrap, porém algumas alterações foram feitas, estas se encontram na folha de estilo <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/responsive.css">responsive.css</a>, e a responsividade da página de menu ficou dentro da própria folha de estilo do menu <br>
+A responsividade ficou em boa parte por conta do próprio Bootstrap, porém algumas alterações foram feitas, estas se encontram na folha de estilo <a href="https://github.com/luisfelipens1/Vegan_Bistro/blob/main/responsive.css">responsive.css</a>, e a responsividade da página de menu ficou dentro da própria folha de estilo do menu. <br>
 Os arquivos Javascript foram os arquivos nativos do Bootstrap, usado nos componentes, e um pequeno arquivo Javascript próprio usado para criar o efeito de link ativo, que acompanha o scroll da página.
 
 ## Arquivos do projeto
